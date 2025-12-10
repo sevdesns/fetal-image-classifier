@@ -1,0 +1,72 @@
+# MATLAB
+*.asv
+*.autosave
+*.m~
+*.mlappinstall
+*.mlpkginstall
+*.prj
+*.slx.autosave
+*.slxc
+*.slxp
+*.sldd
+*.mexw64
+*.mexw32
+*.mexa64
+*.mexmaci64
+*.mexmaca64
+
+# MATLAB Compiler
+mccExcludedFiles.log
+requiredMCRProducts.txt
+readme.txt
+package/
+distrib/
+
+# MATLAB Code Generation
+codegen/
+html/
+packages/
+
+# Simulink
+*.slxc
+*.autosave
+slprj/
+sccprj/
+mdlref/
+sim/
+raccel/
+sfprj/
+
+# MATLAB Data Files
+*.mat
+!trained_model.mat  # Eğer model dosyasını saklamak istiyorsanız
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+
+# Large data files (uncomment if needed)
+# *.png
+# *.jpg
+# *.jpeg
+# *.tif
+# *.tiff
+
